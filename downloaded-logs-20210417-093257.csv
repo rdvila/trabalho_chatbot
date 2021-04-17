@@ -1,0 +1,4280 @@
+insertId,labels.protocol,labels.request_id,labels.type,logName,receiveTimestamp,resource.labels.project_id,resource.type,severity,textPayload,timestamp,trace
+12aiicfg323yea0,V2,e55da12d-5b10-4905-8824-c33f5999ee0a-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:33.213563591Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""e55da12d-5b10-4905-8824-c33f5999ee0a-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:31:33.199295Z""
+result {
+  source: ""agent""
+  resolved_query: ""GCP""
+  score: 0.7832072
+  parameters {
+    fields {
+      key: ""provedor_nuvem""
+      value {
+        string_value: ""Google Cloud Platform""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6268f72f-e103-4524-8352-2714224586b2""
+    intent_name: ""Provedor Nuvem Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal, também gosto de usar o provedor Google Cloud Platform.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal, também gosto de usar o provedor Google Cloud Platform.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:31:33.202922Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+12aiicfg323ye9z,V2,e55da12d-5b10-4905-8824-c33f5999ee0a-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:33.213563591Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""GCP\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:31:33.169Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1s3vmqag3jbmzs2,V2,292f9bb5-16a7-4629-b560-30c78baaa6d5-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:25.030692240Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""292f9bb5-16a7-4629-b560-30c78baaa6d5-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:31:25.016255Z""
+result {
+  source: ""agent""
+  resolved_query: ""Mysql""
+  score: 0.6358485
+  parameters {
+    fields {
+      key: ""banco_dados""
+      value {
+        string_value: ""MySQL""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_nuvem""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""banco_dados""
+        value {
+          string_value: ""MySQL""
+        }
+      }
+      fields {
+        key: ""banco_dados.original""
+        value {
+          string_value: ""Mysql""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""9cd308c3-5ad7-4d92-b99c-48ed0fb0441d""
+    intent_name: ""Banco de Dados Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal!!! O banco de dados MySQL é muito utilizado. E qual provedor de núvem você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal!!! O banco de dados MySQL é muito utilizado. E qual provedor de núvem você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:31:25.021364Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1s3vmqag3jbmzs0,V2,292f9bb5-16a7-4629-b560-30c78baaa6d5-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:25.030692240Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Mysql\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:31:24.993Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19s6nyug338253t,V2,989afe84-4853-4471-9bef-69acb638a2ca-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:18.105005280Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""989afe84-4853-4471-9bef-69acb638a2ca-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:31:18.091596Z""
+result {
+  source: ""agent""
+  resolved_query: ""C""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""C""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_banco_de_dados""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""linguagem_programacao""
+        value {
+          string_value: ""C""
+        }
+      }
+      fields {
+        key: ""linguagem_programacao.original""
+        value {
+          string_value: ""C""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""ffca72f6-e1bd-4640-8f27-178c56240135""
+    intent_name: ""Linguagem de Programacao Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A linguagem C  é bem legal =).  E qual banco de dados você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A linguagem C  é bem legal =).  E qual banco de dados você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:31:18.094301Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19s6nyug338253s,V2,989afe84-4853-4471-9bef-69acb638a2ca-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:18.105005280Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""C\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:31:18.062Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+3marygg3c8knib,V2,cda27d27-f1fb-40e4-a202-f0f6bd0d3b60-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:11.327934919Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""cda27d27-f1fb-40e4-a202-f0f6bd0d3b60-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:31:11.317179Z""
+result {
+  source: ""agent""
+  resolved_query: ""rodrigo""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Rodrigo""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""rodrigo""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:31:11.320406Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+3marygg3c8knia,V2,cda27d27-f1fb-40e4-a202-f0f6bd0d3b60-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:11.327934919Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""rodrigo\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:31:11.292Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+lxqdqcg3chpqpk,V2,7ea1afd9-b885-4b1e-8e9e-bddabf03828b-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:09.165694973Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""7ea1afd9-b885-4b1e-8e9e-bddabf03828b-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:31:09.142017Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 0.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:31:09.145556Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+lxqdqcg3chpqpi,V2,7ea1afd9-b885-4b1e-8e9e-bddabf03828b-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:09.165694973Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:31:09.124Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ujdf4rg3h891c6,V2,c2d2008e-95cc-480f-9e30-8e45b6f00926-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:03.505460810Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""c2d2008e-95cc-480f-9e30-8e45b6f00926-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:31:03.489834Z""
+result {
+  source: ""agent""
+  resolved_query: ""javascript é superior""
+  action: ""input.unknown""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 1.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6d13b5e2-f84d-44dd-8fa2-62ad905fd7fb""
+    intent_name: ""Default Fallback Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""true""
+  }
+  fulfillment {
+    speech: ""Infelizmente, não captei o que deseja.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Infelizmente, não captei o que deseja.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:31:03.493291Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ujdf4rg3h891c5,V2,c2d2008e-95cc-480f-9e30-8e45b6f00926-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:31:03.505460810Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""javascript é superior\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:31:03.459Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1v5epjzg1fkxu06,V2,013de88b-e521-41b6-9407-d00fb9c87c9c-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:30:01.882130261Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""013de88b-e521-41b6-9407-d00fb9c87c9c-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:30:01.866084Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Quantos programadores são necessários para trocar uma lâmpada?\nNenhum, isso é problema de Hardware""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Quantos programadores são necessários para trocar uma lâmpada?\nNenhum, isso é problema de Hardware""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:30:01.870109Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1v5epjzg1fkxu05,V2,013de88b-e521-41b6-9407-d00fb9c87c9c-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:30:01.882130261Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:30:01.853Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1sdfe6cg336q5yq,V2,28b0ac09-1da1-42af-8606-af9f85c47543-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:57.985939113Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""28b0ac09-1da1-42af-8606-af9f85c47543-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:29:57.974855Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Qual linguagem de programação o Han Solo detesta?\nJabbaScript""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Qual linguagem de programação o Han Solo detesta?\nJabbaScript""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:29:57.978559Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1sdfe6cg336q5yp,V2,28b0ac09-1da1-42af-8606-af9f85c47543-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:57.985939113Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:29:57.960Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1js1ebog36xest5,V2,9e4d08a1-8166-40ef-a4a4-5979cedf5c15-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:54.344044826Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""9e4d08a1-8166-40ef-a4a4-5979cedf5c15-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:29:54.332757Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Qual linguagem de programação o Han Solo detesta?\nJabbaScript""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Qual linguagem de programação o Han Solo detesta?\nJabbaScript""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:29:54.335576Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1js1ebog36xest4,V2,9e4d08a1-8166-40ef-a4a4-5979cedf5c15-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:54.344044826Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:29:54.313Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+120vhv8g3gfw4ou,V2,5eaa3512-9d14-44eb-b64f-4dd1bb84eccd-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:50.454002726Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""5eaa3512-9d14-44eb-b64f-4dd1bb84eccd-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:29:50.441974Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:29:50.447556Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+120vhv8g3gfw4ot,V2,5eaa3512-9d14-44eb-b64f-4dd1bb84eccd-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:50.454002726Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:29:50.422Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+slapdcg3gdany7,V2,13ef8dbb-3067-49c0-b15c-79bc33899461-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:45.321911189Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""13ef8dbb-3067-49c0-b15c-79bc33899461-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:29:45.304869Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:29:45.309197Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+slapdcg3gdany3,V2,13ef8dbb-3067-49c0-b15c-79bc33899461-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:45.321911189Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:29:45.282Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+102u6jvg385ug71,V2,23defa66-501d-49ef-bd4c-2a320caf6fca-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:09.537154308Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""23defa66-501d-49ef-bd4c-2a320caf6fca-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:29:09.525729Z""
+result {
+  source: ""agent""
+  resolved_query: ""Azure""
+  score: 0.64942664
+  parameters {
+    fields {
+      key: ""provedor_nuvem""
+      value {
+        string_value: ""Microsoft Azure""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6268f72f-e103-4524-8352-2714224586b2""
+    intent_name: ""Provedor Nuvem Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal, também gosto de usar o provedor Microsoft Azure.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal, também gosto de usar o provedor Microsoft Azure.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:29:09.529479Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+102u6jvg385ug70,V2,23defa66-501d-49ef-bd4c-2a320caf6fca-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:09.537154308Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Azure\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:29:09.496Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1uljrcgg36wi3zb,V2,0d5e658d-f1df-45bf-a5a5-e9831f109f0c-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:02.050645851Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""0d5e658d-f1df-45bf-a5a5-e9831f109f0c-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:29:02.036593Z""
+result {
+  source: ""agent""
+  resolved_query: ""sqlserver""
+  score: 0.6358485
+  parameters {
+    fields {
+      key: ""banco_dados""
+      value {
+        string_value: ""SQLServer""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_nuvem""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""banco_dados""
+        value {
+          string_value: ""SQLServer""
+        }
+      }
+      fields {
+        key: ""banco_dados.original""
+        value {
+          string_value: ""sqlserver""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""9cd308c3-5ad7-4d92-b99c-48ed0fb0441d""
+    intent_name: ""Banco de Dados Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal!!! O banco de dados SQLServer é muito utilizado. E qual provedor de núvem você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal!!! O banco de dados SQLServer é muito utilizado. E qual provedor de núvem você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:29:02.041651Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1uljrcgg36wi3za,V2,0d5e658d-f1df-45bf-a5a5-e9831f109f0c-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:29:02.050645851Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""sqlserver\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:29:02.004Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+opcq9ug3fm3n9g,V2,48bfbf9a-e843-47ee-961c-09d4ca69f72d-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:51.279653339Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""48bfbf9a-e843-47ee-961c-09d4ca69f72d-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:28:51.268109Z""
+result {
+  source: ""agent""
+  resolved_query: ""Kotlin""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Kotlin""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_banco_de_dados""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""linguagem_programacao""
+        value {
+          string_value: ""Kotlin""
+        }
+      }
+      fields {
+        key: ""linguagem_programacao.original""
+        value {
+          string_value: ""Kotlin""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""ffca72f6-e1bd-4640-8f27-178c56240135""
+    intent_name: ""Linguagem de Programacao Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A linguagem Kotlin  é bem legal =).  E qual banco de dados você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A linguagem Kotlin  é bem legal =).  E qual banco de dados você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:28:51.271330Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+opcq9ug3fm3n9f,V2,48bfbf9a-e843-47ee-961c-09d4ca69f72d-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:51.279653339Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Kotlin\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:28:51.242Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+9pomx5g14s8w5b,V2,9c464dfd-c138-4058-88d2-b3ac8e298f85-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:48.635223405Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""9c464dfd-c138-4058-88d2-b3ac8e298f85-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:28:48.620861Z""
+result {
+  source: ""agent""
+  resolved_query: ""Rodrigo""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Rodrigo""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:28:48.624940Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+9pomx5g14s8w5a,V2,9c464dfd-c138-4058-88d2-b3ac8e298f85-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:48.635223405Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Rodrigo\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:28:48.605Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1rtnmz1g3bctzk9,V2,892a1030-0118-44ee-938c-e570cd508339-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:42.999909018Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""892a1030-0118-44ee-938c-e570cd508339-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:28:42.985729Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 0.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:28:42.988707Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1rtnmz1g3bctzk8,V2,892a1030-0118-44ee-938c-e570cd508339-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:42.999909018Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:28:42.964Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+kjqgleg32qmhvf,V2,a1a6529c-f603-4c14-98c5-620c17ae25a9-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:27.851718466Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""a1a6529c-f603-4c14-98c5-620c17ae25a9-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:28:27.841369Z""
+result {
+  source: ""agent""
+  resolved_query: ""não sei programar""
+  action: ""input.unknown""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 1.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6d13b5e2-f84d-44dd-8fa2-62ad905fd7fb""
+    intent_name: ""Default Fallback Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""true""
+  }
+  fulfillment {
+    speech: ""Desculpe, mas não compreendi.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Desculpe, mas não compreendi.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:28:27.844856Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+kjqgleg32qmhve,V2,a1a6529c-f603-4c14-98c5-620c17ae25a9-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:27.851718466Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""não sei programar\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:28:27.812Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+3m12f5fzirolz,V2,7b79d568-ab7c-4551-8820-bea52ca7e66d-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:22.197495151Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""7b79d568-ab7c-4551-8820-bea52ca7e66d-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:28:22.180233Z""
+result {
+  source: ""agent""
+  resolved_query: ""Rodrigo""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Rodrigo""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:28:22.185266Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+3m12f5fziroly,V2,7b79d568-ab7c-4551-8820-bea52ca7e66d-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:22.197495151Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Rodrigo\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:28:22.155Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1e8h31lg36e2opm,V2,dd0d3679-4734-4679-9249-06456ffa7095-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:16.377680033Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""dd0d3679-4734-4679-9249-06456ffa7095-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:28:16.363465Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:28:16.366649Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1e8h31lg36e2opl,V2,dd0d3679-4734-4679-9249-06456ffa7095-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:28:16.377680033Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:28:16.349Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ohx0bxfjdn6ps,V2,391fb5b5-bec6-4265-878a-4c7e408787c3-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:41.394634971Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""391fb5b5-bec6-4265-878a-4c7e408787c3-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:26:41.289326Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do C""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""C""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 86
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do C é de 14.32%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do C é de 14.32%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:26:41.383336Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1eid6y5g36gl32q,V2,391fb5b5-bec6-4265-878a-4c7e408787c3-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:41.389412914Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do C é de 14.32%"",""outputContexts"":[]}",2021-04-17T12:26:41.378396Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+pt4l7dg35tnc32,V2,391fb5b5-bec6-4265-878a-4c7e408787c3-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:41.301365739Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""391fb5b5-bec6-4265-878a-4c7e408787c3-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do C"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""C""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""C"",
+        ""linguagem_programacao.original"": ""C""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:26:41.291636Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ohx0bxfjdn6pr,V2,391fb5b5-bec6-4265-878a-4c7e408787c3-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:41.394634971Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do C\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:26:41.274Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ue86wg3da5d0l,V2,2cc6b423-1a02-4946-bdf1-78a42f60da19-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:33.992275128Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""2cc6b423-1a02-4946-bdf1-78a42f60da19-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:26:33.862817Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade doC""
+  score: 0.83966774
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: """"
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 110
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do  é de 0%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do  é de 0%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:26:33.983491Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+mr9syvg37u6u83,V2,2cc6b423-1a02-4946-bdf1-78a42f60da19-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:33.985036167Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do  é de 0%"",""outputContexts"":[]}",2021-04-17T12:26:33.976792Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1xx7qt9g3bbcszl,V2,2cc6b423-1a02-4946-bdf1-78a42f60da19-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:33.878840885Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""2cc6b423-1a02-4946-bdf1-78a42f60da19-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade doC"",
+    ""parameters"": {
+      ""linguagem_programacao"": """"
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": """",
+        ""linguagem_programacao.original"": """"
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 0.83966774,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:26:33.865776Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ue86wg3da5d0k,V2,2cc6b423-1a02-4946-bdf1-78a42f60da19-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:33.992275128Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade doC\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:26:33.834Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1amjnnlg3cmaqvf,V2,faa6ccec-67a6-4191-8c12-3b635bb89a46-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:24.490309349Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""faa6ccec-67a6-4191-8c12-3b635bb89a46-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:26:24.41159Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do JJJJJJJ""
+  score: 0.83152497
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: """"
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 62
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do  é de 0%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do  é de 0%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:26:24.479279Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1dy3epmg3g8tt5l,V2,faa6ccec-67a6-4191-8c12-3b635bb89a46-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:24.482712735Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do  é de 0%"",""outputContexts"":[]}",2021-04-17T12:26:24.475653Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+p9kpxag3ecszk8,V2,faa6ccec-67a6-4191-8c12-3b635bb89a46-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:24.421181927Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""faa6ccec-67a6-4191-8c12-3b635bb89a46-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do JJJJJJJ"",
+    ""parameters"": {
+      ""linguagem_programacao"": """"
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": """",
+        ""linguagem_programacao.original"": """"
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 0.83152497,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:26:24.413370Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1amjnnlg3cmaqve,V2,faa6ccec-67a6-4191-8c12-3b635bb89a46-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:24.490309349Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do JJJJJJJ\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:26:24.385Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19snciig32s9y5m,V2,bb5e94a7-c838-4527-acea-a4f1d9bcd55d-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:06.507069566Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""bb5e94a7-c838-4527-acea-a4f1d9bcd55d-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:26:06.419919Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do F#""
+  score: 0.83152497
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: """"
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 68
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do  é de 0%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do  é de 0%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:26:06.495657Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+l3ds34g336utld,V2,bb5e94a7-c838-4527-acea-a4f1d9bcd55d-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:06.502212763Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do  é de 0%"",""outputContexts"":[]}",2021-04-17T12:26:06.490930Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1d4j82qg39cwn17,V2,bb5e94a7-c838-4527-acea-a4f1d9bcd55d-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:06.435350047Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""bb5e94a7-c838-4527-acea-a4f1d9bcd55d-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do F#"",
+    ""parameters"": {
+      ""linguagem_programacao"": """"
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": """",
+        ""linguagem_programacao.original"": """"
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 0.83152497,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:26:06.421826Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19snciig32s9y5l,V2,bb5e94a7-c838-4527-acea-a4f1d9bcd55d-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:26:06.507069566Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do F#\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:26:06.389Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+77t7ljg31bo6kf,V2,56a6bfd8-b57e-479e-8608-b120304e87df-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:59.120197298Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""56a6bfd8-b57e-479e-8608-b120304e87df-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:25:59.051454Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do ruby""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Ruby""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 55
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Ruby é de 1.23%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Ruby é de 1.23%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:25:59.113390Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1i3zcahg17tci1v,V2,56a6bfd8-b57e-479e-8608-b120304e87df-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:59.118089402Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Ruby é de 1.23%"",""outputContexts"":[]}",2021-04-17T12:25:59.108841Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+aa7cig3bx2c9e,V2,56a6bfd8-b57e-479e-8608-b120304e87df-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:59.065914874Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""56a6bfd8-b57e-479e-8608-b120304e87df-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do ruby"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Ruby""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Ruby"",
+        ""linguagem_programacao.original"": ""ruby""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:25:59.053310Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+77t7ljg31bo6ke,V2,56a6bfd8-b57e-479e-8608-b120304e87df-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:59.120197298Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do ruby\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:25:59.035Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vwy82wg3hbg60f,V2,6e6705df-dcd8-46aa-919c-7631e3e0b0d4-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:50.080557961Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""6e6705df-dcd8-46aa-919c-7631e3e0b0d4-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:25:50.009484Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do javascript""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Javascript""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 54
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Javascript é de 2.44%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Javascript é de 2.44%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:25:50.070215Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+hhenvwg39a7phz,V2,6e6705df-dcd8-46aa-919c-7631e3e0b0d4-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:50.074209138Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Javascript é de 2.44%"",""outputContexts"":[]}",2021-04-17T12:25:50.066010Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+sl0zq0f4zkdaa,V2,6e6705df-dcd8-46aa-919c-7631e3e0b0d4-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:50.021212655Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""6e6705df-dcd8-46aa-919c-7631e3e0b0d4-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do javascript"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Javascript""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Javascript"",
+        ""linguagem_programacao.original"": ""javascript""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:25:50.011380Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vwy82wg3hbg60e,V2,6e6705df-dcd8-46aa-919c-7631e3e0b0d4-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:50.080557961Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do javascript\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:25:49.990Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+27x5rog3dj2o9i,V2,98146104-c35e-47f9-adf4-6689ed181377-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:43.992997069Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""98146104-c35e-47f9-adf4-6689ed181377-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:25:43.854509Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do java""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Java""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 122
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Java é de 11.23%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Java é de 11.23%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:25:43.984685Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1y50reg36gnty5,V2,98146104-c35e-47f9-adf4-6689ed181377-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:43.987956122Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Java é de 11.23%"",""outputContexts"":[]}",2021-04-17T12:25:43.979436Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1k1wmoig38wbmaa,V2,98146104-c35e-47f9-adf4-6689ed181377-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:43.873532458Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""98146104-c35e-47f9-adf4-6689ed181377-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do java"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Java""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Java"",
+        ""linguagem_programacao.original"": ""java""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:25:43.856621Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+27x5rog3dj2o9h,V2,98146104-c35e-47f9-adf4-6689ed181377-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:43.992997069Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do java\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:25:43.836Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1f26z26g3f32lbb,V2,4d328f30-5499-4c6b-8b8c-592def18df9c-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:38.640060193Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""4d328f30-5499-4c6b-8b8c-592def18df9c-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:25:38.56171Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do c""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""C""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 64
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do C é de 14.32%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do C é de 14.32%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:25:38.631881Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+198qn8kfr0inpb,V2,4d328f30-5499-4c6b-8b8c-592def18df9c-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:38.638976897Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do C é de 14.32%"",""outputContexts"":[]}",2021-04-17T12:25:38.628425Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+170b5lkg38oy8zp,V2,4d328f30-5499-4c6b-8b8c-592def18df9c-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:38.573361635Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""4d328f30-5499-4c6b-8b8c-592def18df9c-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do c"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""C""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""C"",
+        ""linguagem_programacao.original"": ""c""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:25:38.563983Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1f26z26g3f32lba,V2,4d328f30-5499-4c6b-8b8c-592def18df9c-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:38.640060193Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do c\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:25:38.534Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19s6nyug333qelw,V2,ad08e1b6-58dd-4a8c-8fe3-9461f11c2e6e-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:23.591574355Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""ad08e1b6-58dd-4a8c-8fe3-9461f11c2e6e-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:25:23.430452Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do delphi""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Delphi""
+      }
+    }
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""linguagem_programacao""
+        value {
+          string_value: ""Delphi""
+        }
+      }
+      fields {
+        key: ""linguagem_programacao.original""
+        value {
+          string_value: ""delphi""
+        }
+      }
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 0.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 144
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Delphi é de 1.47%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Delphi é de 1.47%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:25:23.583916Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1y8dspg3bryhhf,V2,ad08e1b6-58dd-4a8c-8fe3-9461f11c2e6e-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:23.587234705Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Delphi é de 1.47%"",""outputContexts"":[]}",2021-04-17T12:25:23.577955Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+kt6vxig37vsnuy,V2,ad08e1b6-58dd-4a8c-8fe3-9461f11c2e6e-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:23.443316076Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""ad08e1b6-58dd-4a8c-8fe3-9461f11c2e6e-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do delphi"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Delphi""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""lifespanCount"": 1,
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Delphi"",
+        ""linguagem_programacao.original"": ""delphi""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:25:23.433525Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19s6nyug333qelv,V2,ad08e1b6-58dd-4a8c-8fe3-9461f11c2e6e-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:23.591574355Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do delphi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:25:23.401Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+28c28eg3degoz9,V2,4696447e-639e-416d-8e8d-73b6806d07f0-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:00.278558759Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""4696447e-639e-416d-8e8d-73b6806d07f0-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:25:00.264174Z""
+result {
+  source: ""agent""
+  resolved_query: ""Alibaba""
+  action: ""input.unknown""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 1.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6d13b5e2-f84d-44dd-8fa2-62ad905fd7fb""
+    intent_name: ""Default Fallback Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""true""
+  }
+  fulfillment {
+    speech: ""Desculpe, mas não compreendi.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Desculpe, mas não compreendi.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:25:00.266893Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+28c28eg3degoz8,V2,4696447e-639e-416d-8e8d-73b6806d07f0-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:25:00.278558759Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Alibaba\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:25:00.232Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vd9uuag3hoaeji,V2,1c4d5358-953d-46b3-997a-fc91a62d5289-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:53.019875717Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""1c4d5358-953d-46b3-997a-fc91a62d5289-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:52.986113Z""
+result {
+  source: ""agent""
+  resolved_query: ""Cassandra""
+  score: 0.6358485
+  parameters {
+    fields {
+      key: ""banco_dados""
+      value {
+        string_value: ""Cassandra""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_nuvem""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""banco_dados""
+        value {
+          string_value: ""Cassandra""
+        }
+      }
+      fields {
+        key: ""banco_dados.original""
+        value {
+          string_value: ""Cassandra""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""9cd308c3-5ad7-4d92-b99c-48ed0fb0441d""
+    intent_name: ""Banco de Dados Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal!!! O banco de dados Cassandra é muito utilizado. E qual provedor de núvem você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal!!! O banco de dados Cassandra é muito utilizado. E qual provedor de núvem você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:52.990211Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vd9uuag3hoaejh,V2,1c4d5358-953d-46b3-997a-fc91a62d5289-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:53.019875717Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Cassandra\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:52.957Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+sbf6f0g32hz7o4,V2,e4850822-65e6-415a-b209-20b9490c0b76-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:44.064279356Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""e4850822-65e6-415a-b209-20b9490c0b76-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:44.051655Z""
+result {
+  source: ""agent""
+  resolved_query: ""python""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Python""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_banco_de_dados""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""linguagem_programacao""
+        value {
+          string_value: ""Python""
+        }
+      }
+      fields {
+        key: ""linguagem_programacao.original""
+        value {
+          string_value: ""python""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""ffca72f6-e1bd-4640-8f27-178c56240135""
+    intent_name: ""Linguagem de Programacao Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A linguagem Python  é bem legal =).  E qual banco de dados você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A linguagem Python  é bem legal =).  E qual banco de dados você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:44.056319Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+sbf6f0g32hz7o3,V2,e4850822-65e6-415a-b209-20b9490c0b76-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:44.064279356Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""python\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:44.026Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1173l9dg3nn4sil,V2,a9ddfd72-18ff-4a35-9182-c523ed32ba27-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:41.070495036Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""a9ddfd72-18ff-4a35-9182-c523ed32ba27-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:41.050492Z""
+result {
+  source: ""agent""
+  resolved_query: ""Rodrigo""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Rodrigo""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:41.057681Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1173l9dg3nn4sik,V2,a9ddfd72-18ff-4a35-9182-c523ed32ba27-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:41.070495036Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Rodrigo\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:41.014Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+kjqgleg32nt1se,V2,b50bd6bc-1f97-4168-8357-7eb9b8f89d41-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:37.852584278Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""b50bd6bc-1f97-4168-8357-7eb9b8f89d41-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:37.831413Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 0.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:37.834806Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+kjqgleg32nt1sd,V2,b50bd6bc-1f97-4168-8357-7eb9b8f89d41-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:37.852584278Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:37.801Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+wqrt36g33kkik1,V2,cf42862b-c347-45f7-b5c6-da4f52cbff75-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:32.560601764Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""cf42862b-c347-45f7-b5c6-da4f52cbff75-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:32.545061Z""
+result {
+  source: ""agent""
+  resolved_query: ""Haskell""
+  action: ""input.unknown""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""__system_counters__""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""no-input""
+        value {
+          number_value: 0.0
+        }
+      }
+      fields {
+        key: ""no-match""
+        value {
+          number_value: 1.0
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6d13b5e2-f84d-44dd-8fa2-62ad905fd7fb""
+    intent_name: ""Default Fallback Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""true""
+  }
+  fulfillment {
+    speech: ""Infelizmente, não captei o que deseja.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Infelizmente, não captei o que deseja.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:32.549148Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+wqrt36g33kkik0,V2,cf42862b-c347-45f7-b5c6-da4f52cbff75-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:32.560601764Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Haskell\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:32.518Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1g6evnwg38w1wbj,V2,9c157545-dd0a-4394-9c80-f22d61b658cd-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:22.171509149Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""9c157545-dd0a-4394-9c80-f22d61b658cd-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:22.15693Z""
+result {
+  source: ""agent""
+  resolved_query: ""rodrigo""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Rodrigo""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""rodrigo""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:22.162131Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1g6evnwg38w1wbi,V2,9c157545-dd0a-4394-9c80-f22d61b658cd-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:22.171509149Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""rodrigo\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:22.121Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1xde46tg3fezofd,V2,82061d3b-b60b-4f66-b58f-397b7d748e5a-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:19.064060124Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""82061d3b-b60b-4f66-b58f-397b7d748e5a-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:19.046587Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:19.053032Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1xde46tg3fezofc,V2,82061d3b-b60b-4f66-b58f-397b7d748e5a-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:19.064060124Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:19.030Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+18oql8jg3ay2fhf,V2,77de3b89-969b-447c-b07d-0737562df175-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:15.895747792Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""77de3b89-969b-447c-b07d-0737562df175-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:15.880478Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:15.883174Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+18oql8jg3ay2fhe,V2,77de3b89-969b-447c-b07d-0737562df175-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:15.895747792Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:15.864Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1w9j172g3h732q8,V2,bdb73aed-690f-4c6c-a93a-5f519625a22f-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:11.732943894Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""bdb73aed-690f-4c6c-a93a-5f519625a22f-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:11.708136Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Quantos programadores são necessários para trocar uma lâmpada?\nNenhum, isso é problema de Hardware""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Quantos programadores são necessários para trocar uma lâmpada?\nNenhum, isso é problema de Hardware""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:11.710839Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1w9j172g3h732q7,V2,bdb73aed-690f-4c6c-a93a-5f519625a22f-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:11.732943894Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:11.690Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1yh5olg33eaex2,V2,52f781f9-bf50-4b8a-8665-9923bbd683c4-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:01.796941033Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""52f781f9-bf50-4b8a-8665-9923bbd683c4-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:24:01.674005Z""
+result {
+  source: ""agent""
+  resolved_query: ""min [AAAAAAA]""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""palavra""
+      value {
+        string_value: ""[AAAAAAA]""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""aed1554a-d52c-40dd-b43a-d3978b6b124e""
+    webhook_response_time: 106
+    intent_name: ""Minuscula Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""[aaaaaaa]""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""[aaaaaaa]""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:24:01.786056Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19s9lulg394ihn3,V2,52f781f9-bf50-4b8a-8665-9923bbd683c4-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:01.793761447Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""[aaaaaaa]"",""outputContexts"":[]}",2021-04-17T12:24:01.782111Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+p99boyg32zvn2h,V2,52f781f9-bf50-4b8a-8665-9923bbd683c4-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:01.685027127Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""52f781f9-bf50-4b8a-8665-9923bbd683c4-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""min [AAAAAAA]"",
+    ""parameters"": {
+      ""palavra"": ""[AAAAAAA]""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""palavra"": ""[AAAAAAA]"",
+        ""palavra.original"": ""[AAAAAAA]""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/aed1554a-d52c-40dd-b43a-d3978b6b124e"",
+      ""displayName"": ""Minuscula Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:24:01.675563Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1yh5olg33eaex1,V2,52f781f9-bf50-4b8a-8665-9923bbd683c4-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:24:01.796941033Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""min [AAAAAAA]\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:24:01.644Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+opmb94g37q8x3g,V2,addadaa0-abe9-43b6-abdc-7b2626421d05-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:46.913725211Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""addadaa0-abe9-43b6-abdc-7b2626421d05-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:23:46.828517Z""
+result {
+  source: ""agent""
+  resolved_query: ""rev [uma string muito longa]""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""palavra""
+      value {
+        string_value: ""[uma string muito longa]""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""7eef9ee6-342a-40e3-9d68-e4d1205b8716""
+    webhook_response_time: 62
+    intent_name: ""Reversa Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""[agnol otium gnirts amu]""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""[agnol otium gnirts amu]""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:23:46.901502Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vd9uuag3hnezmc,V2,addadaa0-abe9-43b6-abdc-7b2626421d05-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:46.901230662Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""[agnol otium gnirts amu]"",""outputContexts"":[]}",2021-04-17T12:23:46.894753Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1xn670tg37y5t5f,V2,addadaa0-abe9-43b6-abdc-7b2626421d05-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:46.841555458Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""addadaa0-abe9-43b6-abdc-7b2626421d05-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""rev [uma string muito longa]"",
+    ""parameters"": {
+      ""palavra"": ""[uma string muito longa]""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""palavra"": ""[uma string muito longa]"",
+        ""palavra.original"": ""[uma string muito longa]""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/7eef9ee6-342a-40e3-9d68-e4d1205b8716"",
+      ""displayName"": ""Reversa Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:23:46.831630Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+opmb94g37q8x3f,V2,addadaa0-abe9-43b6-abdc-7b2626421d05-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:46.913725211Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""rev [uma string muito longa]\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:23:46.794Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1035ddug33sdca0,V2,fceea7f2-4329-4691-98d5-5bcf3dd33539-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:15.090010614Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""fceea7f2-4329-4691-98d5-5bcf3dd33539-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:23:14.974861Z""
+result {
+  source: ""agent""
+  resolved_query: ""rev [Javascript]""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""palavra""
+      value {
+        string_value: ""[Javascript]""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""7eef9ee6-342a-40e3-9d68-e4d1205b8716""
+    webhook_response_time: 100
+    intent_name: ""Reversa Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""[tpircsavaJ]""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""[tpircsavaJ]""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:23:15.083048Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+465osyg3eds9ru,V2,fceea7f2-4329-4691-98d5-5bcf3dd33539-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:15.088589209Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""[tpircsavaJ]"",""outputContexts"":[]}",2021-04-17T12:23:15.078084Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+102jq2ug327snpt,V2,fceea7f2-4329-4691-98d5-5bcf3dd33539-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:14.985037781Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""fceea7f2-4329-4691-98d5-5bcf3dd33539-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""rev [Javascript]"",
+    ""parameters"": {
+      ""palavra"": ""[Javascript]""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""palavra"": ""[Javascript]"",
+        ""palavra.original"": ""[Javascript]""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/7eef9ee6-342a-40e3-9d68-e4d1205b8716"",
+      ""displayName"": ""Reversa Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:23:14.977100Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1035ddug33sdc9z,V2,fceea7f2-4329-4691-98d5-5bcf3dd33539-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:15.090010614Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""rev [Javascript]\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:23:14.948Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+nve3u1g31qm0f5,V2,01c0b3bb-079e-45d2-807b-d11e15eb1725-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:05.146138504Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""01c0b3bb-079e-45d2-807b-d11e15eb1725-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:23:05.07914Z""
+result {
+  source: ""agent""
+  resolved_query: ""rev [Rodrigo]""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""palavra""
+      value {
+        string_value: ""[Rodrigo]""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""7eef9ee6-342a-40e3-9d68-e4d1205b8716""
+    webhook_response_time: 53
+    intent_name: ""Reversa Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""[ogirdoR]""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""[ogirdoR]""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:23:05.141156Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+jpiz15g38rnmls,V2,01c0b3bb-079e-45d2-807b-d11e15eb1725-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:05.143583772Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""[ogirdoR]"",""outputContexts"":[]}",2021-04-17T12:23:05.135213Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+i1ejp8g3efon9r,V2,01c0b3bb-079e-45d2-807b-d11e15eb1725-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:05.088660445Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""01c0b3bb-079e-45d2-807b-d11e15eb1725-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""rev [Rodrigo]"",
+    ""parameters"": {
+      ""palavra"": ""[Rodrigo]""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""palavra"": ""[Rodrigo]"",
+        ""palavra.original"": ""[Rodrigo]""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/7eef9ee6-342a-40e3-9d68-e4d1205b8716"",
+      ""displayName"": ""Reversa Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:23:05.080870Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+nve3u1g31qm0f4,V2,01c0b3bb-079e-45d2-807b-d11e15eb1725-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:23:05.146138504Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""rev [Rodrigo]\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:23:05.047Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1gzwmsofbgo1to,V2,4166b9e6-2649-4df6-87ef-44c80915f3e8-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:57.496126484Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""4166b9e6-2649-4df6-87ef-44c80915f3e8-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:22:57.386348Z""
+result {
+  source: ""agent""
+  resolved_query: ""min [Cristiano Adora Javascript]""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""palavra""
+      value {
+        string_value: ""[Cristiano Adora Javascript]""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""aed1554a-d52c-40dd-b43a-d3978b6b124e""
+    webhook_response_time: 92
+    intent_name: ""Minuscula Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""[cristiano adora javascript]""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""[cristiano adora javascript]""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:22:57.484082Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+5u3zt8g3asmb31,V2,4166b9e6-2649-4df6-87ef-44c80915f3e8-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:57.489114635Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""[cristiano adora javascript]"",""outputContexts"":[]}",2021-04-17T12:22:57.480534Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+v39hdmg37gyk11,V2,4166b9e6-2649-4df6-87ef-44c80915f3e8-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:57.398147925Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""4166b9e6-2649-4df6-87ef-44c80915f3e8-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""min [Cristiano Adora Javascript]"",
+    ""parameters"": {
+      ""palavra"": ""[Cristiano Adora Javascript]""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""palavra"": ""[Cristiano Adora Javascript]"",
+        ""palavra.original"": ""[Cristiano Adora Javascript]""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/aed1554a-d52c-40dd-b43a-d3978b6b124e"",
+      ""displayName"": ""Minuscula Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:22:57.387860Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1gzwmsofbgo1tl,V2,4166b9e6-2649-4df6-87ef-44c80915f3e8-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:57.496126484Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""min [Cristiano Adora Javascript]\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:22:57.357Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+slapdcg3g7pm1l,V2,88fe0068-1e23-4fd5-885d-408ca567d649-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:36.798503253Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""88fe0068-1e23-4fd5-885d-408ca567d649-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:22:36.698353Z""
+result {
+  source: ""agent""
+  resolved_query: ""mai [cristiano adora javascript]""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""palavra""
+      value {
+        string_value: ""[cristiano adora javascript]""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""24c3a51d-54d9-405f-bade-80b1371da727""
+    webhook_response_time: 87
+    intent_name: ""Maiuscula Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""[CRISTIANO ADORA JAVASCRIPT]""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""[CRISTIANO ADORA JAVASCRIPT]""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:22:36.791360Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ery5pqg37c6lqp,V2,88fe0068-1e23-4fd5-885d-408ca567d649-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:36.795166717Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""[CRISTIANO ADORA JAVASCRIPT]"",""outputContexts"":[]}",2021-04-17T12:22:36.787825Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1oee74g36dzbzy,V2,88fe0068-1e23-4fd5-885d-408ca567d649-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:36.710263284Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""88fe0068-1e23-4fd5-885d-408ca567d649-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""mai [cristiano adora javascript]"",
+    ""parameters"": {
+      ""palavra"": ""[cristiano adora javascript]""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""palavra"": ""[cristiano adora javascript]"",
+        ""palavra.original"": ""[cristiano adora javascript]""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/24c3a51d-54d9-405f-bade-80b1371da727"",
+      ""displayName"": ""Maiuscula Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:22:36.700320Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+slapdcg3g7pm1k,V2,88fe0068-1e23-4fd5-885d-408ca567d649-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:36.798503253Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""mai [cristiano adora javascript]\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:22:36.679Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+10x16eeg3gshmky,V2,c4eb6e7f-a101-4820-bf7d-fdd661e7ac6d-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:12.499417853Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""c4eb6e7f-a101-4820-bf7d-fdd661e7ac6d-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:22:12.383048Z""
+result {
+  source: ""agent""
+  resolved_query: ""rev [cristiano adora javascript]""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""palavra""
+      value {
+        string_value: ""[cristiano adora javascript]""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""7eef9ee6-342a-40e3-9d68-e4d1205b8716""
+    webhook_response_time: 100
+    intent_name: ""Reversa Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""[tpircsavaj aroda onaitsirc]""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""[tpircsavaj aroda onaitsirc]""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:22:12.490930Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+10wx55kg16robvu,V2,c4eb6e7f-a101-4820-bf7d-fdd661e7ac6d-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:12.495476694Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""[tpircsavaj aroda onaitsirc]"",""outputContexts"":[]}",2021-04-17T12:22:12.485881Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+p95l3lg336nwpt,V2,c4eb6e7f-a101-4820-bf7d-fdd661e7ac6d-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:12.397900092Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""c4eb6e7f-a101-4820-bf7d-fdd661e7ac6d-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""rev [cristiano adora javascript]"",
+    ""parameters"": {
+      ""palavra"": ""[cristiano adora javascript]""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""palavra"": ""[cristiano adora javascript]"",
+        ""palavra.original"": ""[cristiano adora javascript]""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/7eef9ee6-342a-40e3-9d68-e4d1205b8716"",
+      ""displayName"": ""Reversa Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:22:12.385028Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+10x16eeg3gshmkx,V2,c4eb6e7f-a101-4820-bf7d-fdd661e7ac6d-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:22:12.499417853Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""rev [cristiano adora javascript]\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:22:12.350Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ubb50mg33j4qw9,V2,3924e02c-2886-4811-91a0-f1e508d75e4f-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:50.493636806Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""3924e02c-2886-4811-91a0-f1e508d75e4f-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:50.480797Z""
+result {
+  source: ""agent""
+  resolved_query: ""me faça rir""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:50.483590Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ubb50mg33j4qw8,V2,3924e02c-2886-4811-91a0-f1e508d75e4f-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:50.493636806Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""me faça rir\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:50.450Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+kt6vxig37szgig,V2,261e6db9-ff08-4e65-868e-489691d1a3af-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:43.890848048Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""261e6db9-ff08-4e65-868e-489691d1a3af-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:43.879902Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta um piada""
+  score: 0.6379216
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:43.884020Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+kt6vxig37szgif,V2,261e6db9-ff08-4e65-868e-489691d1a3af-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:43.890848048Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta um piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:43.840Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+17kgdvng3bnnebh,V2,7cd3f2d6-ae9c-4856-a83d-76a013afdb6f-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:36.154385801Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""7cd3f2d6-ae9c-4856-a83d-76a013afdb6f-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:36.14091Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta um piada""
+  score: 0.6379216
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:36.143655Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+17kgdvng3bnnebg,V2,7cd3f2d6-ae9c-4856-a83d-76a013afdb6f-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:36.154385801Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta um piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:36.113Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+atlhipfg73bfx,V2,da85f876-930d-4ff9-90ee-6706198b979a-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:30.154216024Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""da85f876-930d-4ff9-90ee-6706198b979a-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:30.136898Z""
+result {
+  source: ""agent""
+  resolved_query: ""AWS""
+  score: 0.5720528
+  parameters {
+    fields {
+      key: ""provedor_nuvem""
+      value {
+        string_value: ""Amazon Web Services""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6268f72f-e103-4524-8352-2714224586b2""
+    intent_name: ""Provedor Nuvem Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal, também gosto de usar o provedor Amazon Web Services.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal, também gosto de usar o provedor Amazon Web Services.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:30.142857Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+atlhipfg73bfw,V2,da85f876-930d-4ff9-90ee-6706198b979a-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:30.154216024Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""AWS\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:30.116Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1cac5u6g3fp9iel,V2,124f784d-f861-4b6d-9d90-aeb5df61642b-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:25.106657973Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""124f784d-f861-4b6d-9d90-aeb5df61642b-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:25.096111Z""
+result {
+  source: ""agent""
+  resolved_query: ""DynamoDB""
+  score: 0.6358485
+  parameters {
+    fields {
+      key: ""banco_dados""
+      value {
+        string_value: ""DynamoDB""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_nuvem""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""banco_dados""
+        value {
+          string_value: ""DynamoDB""
+        }
+      }
+      fields {
+        key: ""banco_dados.original""
+        value {
+          string_value: ""DynamoDB""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""9cd308c3-5ad7-4d92-b99c-48ed0fb0441d""
+    intent_name: ""Banco de Dados Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal!!! O banco de dados DynamoDB é muito utilizado. E qual provedor de núvem você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal!!! O banco de dados DynamoDB é muito utilizado. E qual provedor de núvem você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:25.098879Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1cac5u6g3fp9iek,V2,124f784d-f861-4b6d-9d90-aeb5df61642b-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:25.106657973Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""DynamoDB\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:25.084Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ivt4sdfhoqjnf,V2,ed6a96cf-0bae-4093-ad81-c96e8d131b5f-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:21.520905471Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""ed6a96cf-0bae-4093-ad81-c96e8d131b5f-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:21.508499Z""
+result {
+  source: ""agent""
+  resolved_query: ""Python""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Python""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_banco_de_dados""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""linguagem_programacao""
+        value {
+          string_value: ""Python""
+        }
+      }
+      fields {
+        key: ""linguagem_programacao.original""
+        value {
+          string_value: ""Python""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""ffca72f6-e1bd-4640-8f27-178c56240135""
+    intent_name: ""Linguagem de Programacao Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A linguagem Python  é bem legal =).  E qual banco de dados você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A linguagem Python  é bem legal =).  E qual banco de dados você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:21.511431Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ivt4sdfhoqjne,V2,ed6a96cf-0bae-4093-ad81-c96e8d131b5f-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:21.520905471Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Python\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:21.497Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+tpdrcof44zkk9,V2,ded2892b-cffa-4231-8189-d80d483f2546-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:17.592677959Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""ded2892b-cffa-4231-8189-d80d483f2546-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:17.581991Z""
+result {
+  source: ""agent""
+  resolved_query: ""Rodrigo""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Rodrigo""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:17.585818Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+tpdrcof44zkk8,V2,ded2892b-cffa-4231-8189-d80d483f2546-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:17.592677959Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Rodrigo\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:17.563Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+102vsbrg36ntskb,V2,2f0b9964-be9d-460d-8ced-7c59455b0979-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:14.317282468Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""2f0b9964-be9d-460d-8ced-7c59455b0979-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:14.305756Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:14.308427Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+102vsbrg36ntska,V2,2f0b9964-be9d-460d-8ced-7c59455b0979-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:14.317282468Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:14.298Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1fc6y3ag35uuzkc,V2,91351a33-ddc7-46e7-a7a8-9f998bd5165e-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:09.793469303Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""91351a33-ddc7-46e7-a7a8-9f998bd5165e-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:09.775456Z""
+result {
+  source: ""agent""
+  resolved_query: ""IBM""
+  score: 0.64942664
+  parameters {
+    fields {
+      key: ""provedor_nuvem""
+      value {
+        string_value: ""IBM Cloud""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6268f72f-e103-4524-8352-2714224586b2""
+    intent_name: ""Provedor Nuvem Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal, também gosto de usar o provedor IBM Cloud.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal, também gosto de usar o provedor IBM Cloud.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:09.779959Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1fc6y3ag35uuzkb,V2,91351a33-ddc7-46e7-a7a8-9f998bd5165e-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:09.793469303Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""IBM\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:09.743Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1oi0j5ofue54fq,V2,5ac220d8-f264-492b-bd52-4d3b67b14732-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:04.438072768Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""5ac220d8-f264-492b-bd52-4d3b67b14732-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:21:04.424424Z""
+result {
+  source: ""agent""
+  resolved_query: ""Oracle""
+  score: 0.6358485
+  parameters {
+    fields {
+      key: ""banco_dados""
+      value {
+        string_value: ""Oracle""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_nuvem""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""banco_dados""
+        value {
+          string_value: ""Oracle""
+        }
+      }
+      fields {
+        key: ""banco_dados.original""
+        value {
+          string_value: ""Oracle""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""9cd308c3-5ad7-4d92-b99c-48ed0fb0441d""
+    intent_name: ""Banco de Dados Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal!!! O banco de dados Oracle é muito utilizado. E qual provedor de núvem você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal!!! O banco de dados Oracle é muito utilizado. E qual provedor de núvem você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:21:04.427623Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1oi0j5ofue54fp,V2,5ac220d8-f264-492b-bd52-4d3b67b14732-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:21:04.438072768Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Oracle\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:21:04.386Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1htvtscg3fw44yc,V2,6c850281-4cc6-4ba4-ae8d-fb36457592c9-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:58.925871870Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""6c850281-4cc6-4ba4-ae8d-fb36457592c9-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:58.915604Z""
+result {
+  source: ""agent""
+  resolved_query: ""Javascript""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Javascript""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_banco_de_dados""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""linguagem_programacao""
+        value {
+          string_value: ""Javascript""
+        }
+      }
+      fields {
+        key: ""linguagem_programacao.original""
+        value {
+          string_value: ""Javascript""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""ffca72f6-e1bd-4640-8f27-178c56240135""
+    intent_name: ""Linguagem de Programacao Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A linguagem Javascript  é bem legal =).  E qual banco de dados você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A linguagem Javascript  é bem legal =).  E qual banco de dados você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:58.918456Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1htvtscg3fw44yb,V2,6c850281-4cc6-4ba4-ae8d-fb36457592c9-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:58.925871870Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Javascript\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:58.896Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ohx0bxfj92882,V2,60ea9754-57f2-4947-b88c-4247a8e34c60-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:53.229261534Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""60ea9754-57f2-4947-b88c-4247a8e34c60-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:53.217544Z""
+result {
+  source: ""agent""
+  resolved_query: ""Cristiano""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Cristiano""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Cristiano""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""Cristiano""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Cristiano qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Cristiano qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:53.220256Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ohx0bxfj92881,V2,60ea9754-57f2-4947-b88c-4247a8e34c60-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:53.229261534Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Cristiano\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:53.201Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vn6rdeg3ft8qiv,V2,0d8fe5dd-141f-4624-8ada-83e5cb09ac07-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:48.085363587Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""0d8fe5dd-141f-4624-8ada-83e5cb09ac07-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:48.071615Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:48.076049Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vn6rdeg3ft8qiu,V2,0d8fe5dd-141f-4624-8ada-83e5cb09ac07-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:48.085363587Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:48.051Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19sg0r5g33c3d27,V2,dfd50431-23d0-465e-8bff-c4b2b218bd05-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:46.426915650Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""dfd50431-23d0-465e-8bff-c4b2b218bd05-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:46.342832Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do javascript""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Javascript""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 67
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Javascript é de 2.44%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Javascript é de 2.44%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:46.415396Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1of9lpg2hulkya,V2,dfd50431-23d0-465e-8bff-c4b2b218bd05-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:46.417975483Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Javascript é de 2.44%"",""outputContexts"":[]}",2021-04-17T12:20:46.411569Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1a2bxvkg3393y8k,V2,dfd50431-23d0-465e-8bff-c4b2b218bd05-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:46.358539348Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""dfd50431-23d0-465e-8bff-c4b2b218bd05-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do javascript"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Javascript""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Javascript"",
+        ""linguagem_programacao.original"": ""javascript""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:20:46.344263Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19sg0r5g33c3d26,V2,dfd50431-23d0-465e-8bff-c4b2b218bd05-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:46.426915650Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do javascript\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:46.326Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+jfhpc5g3bvl9v9,V2,1049600d-a54a-4d12-8da6-be4220d85b90-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:31.804629192Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""1049600d-a54a-4d12-8da6-be4220d85b90-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:31.693932Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do visual basic""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""VIsual Basic""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 91
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do VIsual Basic é de 4.55%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do VIsual Basic é de 4.55%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:31.795217Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+63taq5g2dhr1a6,V2,1049600d-a54a-4d12-8da6-be4220d85b90-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:31.799803813Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do VIsual Basic é de 4.55%"",""outputContexts"":[]}",2021-04-17T12:20:31.788811Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+wqxxwmg3iyak0h,V2,1049600d-a54a-4d12-8da6-be4220d85b90-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:31.704239863Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""1049600d-a54a-4d12-8da6-be4220d85b90-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do visual basic"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""VIsual Basic""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""VIsual Basic"",
+        ""linguagem_programacao.original"": ""visual basic""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:20:31.696655Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+jfhpc5g3bvl9v8,V2,1049600d-a54a-4d12-8da6-be4220d85b90-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:31.804629192Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do visual basic\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:31.657Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1sdyljjg2ddan5d,V2,798e6048-3bb0-4e50-a4f7-bc44a852a596-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:24.395742394Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""798e6048-3bb0-4e50-a4f7-bc44a852a596-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:24.096387Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do ruby""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Ruby""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 281
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Ruby é de 1.23%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Ruby é de 1.23%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:24.384214Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1caetd4g3295xxb,V2,798e6048-3bb0-4e50-a4f7-bc44a852a596-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:24.387711296Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Ruby é de 1.23%"",""outputContexts"":[]}",2021-04-17T12:20:24.379966Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+t4xmj4g1zlqhtk,V2,798e6048-3bb0-4e50-a4f7-bc44a852a596-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:24.108123464Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""798e6048-3bb0-4e50-a4f7-bc44a852a596-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do ruby"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Ruby""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Ruby"",
+        ""linguagem_programacao.original"": ""ruby""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:20:24.098259Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1sdyljjg2ddan5c,V2,798e6048-3bb0-4e50-a4f7-bc44a852a596-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:24.395742394Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do ruby\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:24.067Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1hu2tq6g3dflbxt,V2,d1c0be1a-c97d-4557-8f1e-36d1342a46cb-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:18.393248965Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""d1c0be1a-c97d-4557-8f1e-36d1342a46cb-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:18.242817Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do C""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""C""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 134
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do C é de 14.32%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do C é de 14.32%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:18.383332Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1vzi46eg368k1ad,V2,d1c0be1a-c97d-4557-8f1e-36d1342a46cb-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:18.387312026Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do C é de 14.32%"",""outputContexts"":[]}",2021-04-17T12:20:18.379527Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ie2my1g38ahgqs,V2,d1c0be1a-c97d-4557-8f1e-36d1342a46cb-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:18.252357243Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""d1c0be1a-c97d-4557-8f1e-36d1342a46cb-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do C"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""C""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""C"",
+        ""linguagem_programacao.original"": ""C""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:20:18.244375Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1hu2tq6g3dflbxs,V2,d1c0be1a-c97d-4557-8f1e-36d1342a46cb-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:18.393248965Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do C\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:18.217Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19sncijg32zvbsk,V2,2969514c-a987-4f3e-a536-e3b6f4d5fa3d-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:13.490655088Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""2969514c-a987-4f3e-a536-e3b6f4d5fa3d-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T12:20:11.768898Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do python""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Python""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 1693
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Python é de 11.03%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Python é de 11.03%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T12:20:13.476945Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1cu1mabg164dj1q,V2,2969514c-a987-4f3e-a536-e3b6f4d5fa3d-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:13.478390805Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Python é de 11.03%"",""outputContexts"":[]}",2021-04-17T12:20:13.466745Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1q5kjzbg32zjydq,V2,2969514c-a987-4f3e-a536-e3b6f4d5fa3d-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:11.783938426Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""2969514c-a987-4f3e-a536-e3b6f4d5fa3d-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do python"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Python""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Python"",
+        ""linguagem_programacao.original"": ""python""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T12:20:11.772472Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+19sncijg32zvbsj,V2,2969514c-a987-4f3e-a536-e3b6f4d5fa3d-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T12:20:13.490655088Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do python\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T12:20:11.747Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+3c8vugg3b7u6sb,V2,4106b2c1-9353-4dee-82bd-de14b5ee2b1b-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:59:31.299629695Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""4106b2c1-9353-4dee-82bd-de14b5ee2b1b-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:59:31.213112Z""
+result {
+  source: ""agent""
+  resolved_query: ""popularidade do java""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Java""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""914bfa94-fcc6-431e-9f7c-692c1502f6f6""
+    webhook_response_time: 64
+    intent_name: ""Popularidade Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A popularidade do Java é de 11.23%""
+    messages {
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A popularidade do Java é de 11.23%""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:59:31.284281Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+jfpk53g39krydl,V2,4106b2c1-9353-4dee-82bd-de14b5ee2b1b-d74139ee,conversation_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:59:31.292211536Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment response : {""fulfillmentText"":""A popularidade do Java é de 11.23%"",""outputContexts"":[]}",2021-04-17T11:59:31.280547Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1js1ebog36ahzm1,V2,4106b2c1-9353-4dee-82bd-de14b5ee2b1b-d74139ee,conversation_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:59:31.227010905Z,rpg-chatbot-qaol,global,INFO,"Dialogflow fulfillment request : {
+  ""responseId"": ""4106b2c1-9353-4dee-82bd-de14b5ee2b1b-d74139ee"",
+  ""queryResult"": {
+    ""queryText"": ""popularidade do java"",
+    ""parameters"": {
+      ""linguagem_programacao"": ""Java""
+    },
+    ""allRequiredParamsPresent"": true,
+    ""fulfillmentMessages"": [{
+      ""text"": {
+        ""text"": [""""]
+      }
+    }],
+    ""outputContexts"": [{
+      ""name"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2/contexts/__system_counters__"",
+      ""parameters"": {
+        ""no-input"": 0.0,
+        ""no-match"": 0.0,
+        ""linguagem_programacao"": ""Java"",
+        ""linguagem_programacao.original"": ""java""
+      }
+    }],
+    ""intent"": {
+      ""name"": ""projects/rpg-chatbot-qaol/agent/intents/914bfa94-fcc6-431e-9f7c-692c1502f6f6"",
+      ""displayName"": ""Popularidade Intent""
+    },
+    ""intentDetectionConfidence"": 1.0,
+    ""languageCode"": ""pt-br""
+  },
+  ""originalDetectIntentRequest"": {
+    ""payload"": {
+    }
+  },
+  ""session"": ""projects/rpg-chatbot-qaol/agent/sessions/webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+}",2021-04-17T11:59:31.215359Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+3c8vugg3b7u6sa,V2,4106b2c1-9353-4dee-82bd-de14b5ee2b1b-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:59:31.299629695Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""popularidade do java\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:59:31.186Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vn6rdeg3fblypf,V2,89c2784a-d361-4232-8dc2-c8a98f94f51a-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:59.880583653Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""89c2784a-d361-4232-8dc2-c8a98f94f51a-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:59.867171Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Quantos programadores são necessários para trocar uma lâmpada?\nNenhum, isso é problema de Hardware""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Quantos programadores são necessários para trocar uma lâmpada?\nNenhum, isso é problema de Hardware""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:59.872548Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+vn6rdeg3fblype,V2,89c2784a-d361-4232-8dc2-c8a98f94f51a-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:59.880583653Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:59.833Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+5aekurg3gnac69,V2,f531d198-514a-4210-83ca-34cf6aff6528-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:55.055646839Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""f531d198-514a-4210-83ca-34cf6aff6528-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:55.037748Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Qual linguagem de programação o Han Solo detesta?\nJabbaScript""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Qual linguagem de programação o Han Solo detesta?\nJabbaScript""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:55.041841Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+5aekurg3gnac64,V2,f531d198-514a-4210-83ca-34cf6aff6528-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:55.055646839Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:55.015Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1w9gvomg3n1z52x,V2,9204fbdd-3dd0-496e-8d8c-de1460ea4bb4-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:49.813708504Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""9204fbdd-3dd0-496e-8d8c-de1460ea4bb4-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:49.796073Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:49.798831Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1w9gvomg3n1z52w,V2,9204fbdd-3dd0-496e-8d8c-de1460ea4bb4-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:49.813708504Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:49.787Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+15wl0kxg34y647h,V2,33bda9e9-c4dd-4658-8f91-c5477b58f24c-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:46.025233368Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""33bda9e9-c4dd-4658-8f91-c5477b58f24c-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:46.015796Z""
+result {
+  source: ""agent""
+  resolved_query: ""conta uma piada""
+  score: 1.0
+  parameters {
+  }
+  metadata {
+    intent_id: ""f2e0f3f7-919e-4ee0-bd14-bf0ac4374432""
+    intent_name: ""Piada Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""int x=10; int y=10; return x+y; // Qual o nome do filme?\nO Código dá Vinte""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:46.018619Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+15wl0kxg34y647g,V2,33bda9e9-c4dd-4658-8f91-c5477b58f24c-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:46.025233368Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""conta uma piada\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:46.003Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1thonhtg365c2he,V2,077a5c0b-df77-4b3e-9203-ef47742214ef-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:39.446741367Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""077a5c0b-df77-4b3e-9203-ef47742214ef-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:39.432743Z""
+result {
+  source: ""agent""
+  resolved_query: ""AWS""
+  score: 0.5720528
+  parameters {
+    fields {
+      key: ""provedor_nuvem""
+      value {
+        string_value: ""Amazon Web Services""
+      }
+    }
+  }
+  metadata {
+    intent_id: ""6268f72f-e103-4524-8352-2714224586b2""
+    intent_name: ""Provedor Nuvem Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal, também gosto de usar o provedor Amazon Web Services.""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal, também gosto de usar o provedor Amazon Web Services.""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:39.436320Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1thonhtg365c2hd,V2,077a5c0b-df77-4b3e-9203-ef47742214ef-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:39.446741367Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""AWS\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:39.406Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+120mrzjg35usvs2,V2,79b179a9-090d-4fec-9cf3-55630cd8f61e-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:35.973289752Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""79b179a9-090d-4fec-9cf3-55630cd8f61e-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:35.95892Z""
+result {
+  source: ""agent""
+  resolved_query: ""DynamoDB""
+  score: 0.6358485
+  parameters {
+    fields {
+      key: ""banco_dados""
+      value {
+        string_value: ""DynamoDB""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_nuvem""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""banco_dados""
+        value {
+          string_value: ""DynamoDB""
+        }
+      }
+      fields {
+        key: ""banco_dados.original""
+        value {
+          string_value: ""DynamoDB""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""9cd308c3-5ad7-4d92-b99c-48ed0fb0441d""
+    intent_name: ""Banco de Dados Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Legal!!! O banco de dados DynamoDB é muito utilizado. E qual provedor de núvem você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Legal!!! O banco de dados DynamoDB é muito utilizado. E qual provedor de núvem você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:35.962572Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+120mrzjg35usvs1,V2,79b179a9-090d-4fec-9cf3-55630cd8f61e-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:35.973289752Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""DynamoDB\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:35.936Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ajt301g38zidsk,V2,302dd810-a746-46e7-85d5-b638dbce3192-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:29.796346019Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""302dd810-a746-46e7-85d5-b638dbce3192-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:29.785768Z""
+result {
+  source: ""agent""
+  resolved_query: ""Python""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""linguagem_programacao""
+      value {
+        string_value: ""Python""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_banco_de_dados""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""linguagem_programacao""
+        value {
+          string_value: ""Python""
+        }
+      }
+      fields {
+        key: ""linguagem_programacao.original""
+        value {
+          string_value: ""Python""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""ffca72f6-e1bd-4640-8f27-178c56240135""
+    intent_name: ""Linguagem de Programacao Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""A linguagem Python  é bem legal =).  E qual banco de dados você usa?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""A linguagem Python  é bem legal =).  E qual banco de dados você usa?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:29.788421Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+ajt301g38zidsj,V2,302dd810-a746-46e7-85d5-b638dbce3192-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:29.796346019Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Python\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:29.769Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+sl0zq0f4diw22,V2,b1d61b60-4af9-48a8-99a2-1396c52bd87b-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:25.471040776Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""b1d61b60-4af9-48a8-99a2-1396c52bd87b-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:25.460181Z""
+result {
+  source: ""agent""
+  resolved_query: ""Rodrigo""
+  score: 1.0
+  parameters {
+    fields {
+      key: ""given-name""
+      value {
+        string_value: ""Rodrigo""
+      }
+    }
+  }
+  contexts {
+    name: ""esperando_linguagem_de_programacao""
+    lifespan: 1
+    parameters {
+      fields {
+        key: ""given-name""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+      fields {
+        key: ""given-name.original""
+        value {
+          string_value: ""Rodrigo""
+        }
+      }
+    }
+  }
+  metadata {
+    intent_id: ""662a2fe0-b426-4ed1-bd04-b04acc7d5a5d""
+    intent_name: ""Primeiro Nome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá Rodrigo qual a sua lingugem de programação preferida?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:25.463423Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+sl0zq0f4diw21,V2,b1d61b60-4af9-48a8-99a2-1396c52bd87b-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:25.471040776Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""Rodrigo\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:25.443Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ohx0bxfiqzcux,V2,2cf95a13-7128-4c9c-bf60-d91550f59a23-d74139ee,dialogflow_response,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:22.639040475Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Response : id: ""2cf95a13-7128-4c9c-bf60-d91550f59a23-d74139ee""
+lang: ""pt-br""
+session_id: ""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2""
+timestamp: ""2021-04-17T11:58:22.619481Z""
+result {
+  source: ""agent""
+  resolved_query: ""oi""
+  action: ""input.welcome""
+  score: 1.0
+  parameters {
+  }
+  contexts {
+    name: ""esperando_primeiro_nome""
+    lifespan: 1
+    parameters {
+    }
+  }
+  metadata {
+    intent_id: ""64b85a94-84b6-47e2-ac75-2ba8cc85c7b4""
+    intent_name: ""Default Welcome Intent""
+    webhook_used: ""false""
+    webhook_for_slot_filling_used: ""false""
+    is_fallback_intent: ""false""
+  }
+  fulfillment {
+    speech: ""Olá! Qual o seu nome?""
+    messages {
+      lang: ""pt-br""
+      type {
+        number_value: 0.0
+      }
+      speech {
+        string_value: ""Olá! Qual o seu nome?""
+      }
+    }
+  }
+}
+status {
+  code: 200
+  error_type: ""success""
+}
+",2021-04-17T11:58:22.623373Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
+1ohx0bxfiqzcuw,V2,2cf95a13-7128-4c9c-bf60-d91550f59a23-d74139ee,dialogflow_request,projects/rpg-chatbot-qaol/logs/dialogflow_agent,2021-04-17T11:58:22.639040475Z,rpg-chatbot-qaol,global,INFO,"Dialogflow Request : {""session"":""webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2"",""query_input"":""{\n  \""text\"": {\n    \""textInputs\"": [{\n      \""text\"": \""oi\""\n    }]\n  }\n}"",""timezone"":""America/Buenos_Aires""}",2021-04-17T11:58:22.592Z,webdemo-8e9e7087-e736-1ce5-1ac6-44439f6b6fd2
